@@ -1,0 +1,160 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items :center;
+}
+h1{
+    color:darkgreen;
+}
+#main-container{
+    background-color:azure;
+    width:500px;
+    height:auto;
+    border:1px solid grey;
+    border-radius: 10px;
+}
+
+.top-container{
+    display:flex;
+    justify-content: space-between;
+    width:95%;
+    height:45px;
+    background-color:darkseagreen;
+    margin:10px 0px 0px 15px;
+    border-radius: 8px;
+}
+.top-container:hover{
+    background-color:rgb(37, 128, 37);
+
+}
+
+.icon{
+    margin-top:5px;
+    margin-left:5px;
+    height:30px;
+    width:30px;
+    opacity:0.6;
+}
+
+.input-task{
+    font-size:20px;
+    margin-top:5px;
+    width:80%;
+    height:35px;
+    border:none;
+    background-color:darkseagreen;
+}
+.input-task:hover{
+    border:transparent;
+    background-color: rgb(37, 128, 37);
+}
+#add-button{
+    margin-top:10px;
+    margin-right:5px;
+    height:25px;
+    width:25px;
+    border:2px solid black;
+    border-radius:50%;
+    background-color: transparent;
+    font-size:15px;
+    /* text-align:center; */
+    font-weight: bolder;
+    opacity:0.7;
+     /* visibility:hidden; */
+}
+
+.top-links{
+    font-size: 14px;
+    opacity:0.5;
+    margin-left:15px;
+    margin-right:15px;
+    display:flex;
+    justify-content: space-between;
+}
+hr{
+    width:95%;
+    color:lightgrey;
+    opacity:0.5;
+}
+/* #add-button:hover{
+    visibility:visible;
+} */
+
+.middle-container{
+    height:auto;
+    width:90%;
+   
+   
+    margin:10px;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 8px;
+    display:flex;
+    justify-content:space-between;
+    align-items: inherit;
+    align-items: center;
+
+  
+
+}
+ul li:hover {
+    background-color:rgb(174, 231, 163);
+    border-radius: 10px;
+    
+  }
+  
+/* #list input:checked + label:before {
+    background: #0079bf;
+  }  */
+
+ #list input:checked ~  .label {
+    text-decoration: line-through;
+    color:seagreen;
+  }
+
+
+/* button {
+    height: 0px;
+    width:0px;
+    padding: 5px 0px;
+    border-radius: 3px;
+    opacity:0.7;
+} 
+*/
+
+
+.bottom-links {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right:5px;
+    color: gray;
+  }
+  #task-counter{
+    margin-left:10px;
+  }
+  .all{
+    margin-right:10px;
+  }
+  i{
+    display:none;
+  }
+  i .delete:hover {
+    visibility: visible;
+  }
+ .left-side{
+    margin-left:5px;
+ }
+.right-side{
+    margin-right:5px;
+}
+li i{
+    color:rgb(197, 25, 25);
+    display: none;
+    /* visibility: hidden; */
+}
